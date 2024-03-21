@@ -11,6 +11,6 @@ outputs:
 
 runs:
   using: "docker"
-  image: "./.github/hello-world-docker-action/Dockerfile"
+  image: "Dockerfile"
   args:
     - ${{ inputs.who-to-greet }}
